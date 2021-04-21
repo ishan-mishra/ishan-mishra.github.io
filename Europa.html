@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ishan Mishra</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/potrait.jpg" style="margin:auto; width:125%; margin-left:-20px" alt="" /></span>
+					<h1 id="logo"><a href="#">Ishan Mishra</a></h1>
+					<p>Ph.D. candidate in Astronomy<br />
+					Cornell University</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="index.html" class="active">Research</a></li>
+						<li><a href="index.html">Outreach</a></li>
+						<li><a href="index.html">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-6092-7674" href="https://orcid.org/0000-0001-6092-7674" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">0000-0001-6092-7674</a></div>
+						<li><a href="https://twitter.com/astro_ishan" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/ishan-mishra" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:im356@cornell.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<h2>Providing new constraints on Europa's surface composition</h2>
+									<p>Reflectance spectrocopy has been the bread-and-butter for our understanding of the surface composition of most solar system objects, including the astrobiologically interesting moon of Jupiter, Europa. In Europa's case, our interest in its surface composition is special, as it can allow us to place constraints on the habitability of its subsurface ocean, as we have evidence that there is an active exchange of material between Europa's surface and the ocean beneath it.  However, to rigorously evaluate evidence of a given chemical species on Europa's surface and calculalte is abundance, new methods like Bayesian inference need to be adopted that can efficiently explore complex parameter spaces of models we use to fit these spectra. <br>
+                                    As part of my <a href="https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=759880/solicitationId=%7BE16CD59F-29DD-06C0-8971-CE1A9C252FD4%7D/viewSolicitationDocument=1/ROSES19%20FINESST%20Planetary%20Science%20Selections%20(6%2030%202020).pdf">NASA FINESST</a> (Future Investigators in NASA Earth and Space Science and Technology) award, I am developing an open source Python software that will allow us to perform such an analysis to old and new Europan data, along with helping us asses the capability of future missions like Europa Clipper to pick out signatures of trace species of interest, like organics. 
+									</p>
+									<p>My past and current projects on this subject are listed below:</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/jiram.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Bayesian analysis of Juno/JIRAM's NIR observations of Europa</h4>
+												<p>NASA's Juno mission observed Europa using its JIRAM spectrometer and yeilded several high-quality observations of the moon, which were <a href="http://www.sciencedirect.com/science/article/pii/S0019103518306948">published</a> in 2019. I led the analysis of a small set of spectra from the Juno JM0081 observation set, using a Bayesian inference framework with the goal of constraining the abundance of amorphous and crystalline water ice, the two dominant water ice forms on solar system surfaces. We were also trying to understand the nature of the regolith - whether the constituents are throroughly mixed together or whether they exist as distinct patches. The paper describing this work was published in <a href="https://www.sciencedirect.com/science/article/abs/pii/S0019103520305479?via%3Dihub">Icarus</a> and is also available on <a href='https://arxiv.org/abs/2012.05240'>arXiv</a>.    </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/galileo.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>A comprehensive revisit of select Galileo/NIMS observations of Europa</h4>
+												<p>Using my Bayesian inference framework, I analyzed select Galileo/NIMS observations of Europa in the NIR (2-5 microns). My framework makes several quantitative improvements relative to prior analyses: 1) simultaneous inclusion of key Europan species - amorphous and crystalline water ice,
+                                                sulfuric acid octahydrate, CO<sub>2</sub>, and SO<sub>2</sub>, 2) physical parameters like regolith
+                                                porosity and radiation-induced band-center shift, and 3) tools to quantify confidence
+                                                in the presence of each species included in the model, and to constrain their parameters and explore degeneracies of solution. Early results from this project were presented at the American Astronomical Society's Division of Planetary Science meeting in 2020, whose recording can be found <a href="https://drive.google.com/file/d/1Imw3qe62Saa7A4AqU1GMuol11UkgXP1Y/view?usp=sharing">here</a>. A paper related to this work is under review for publication in the Planetary Science Journal. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/clipper.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Assessing the capability of Europa Clipper's Mapping and Imaging Spectrometer (MISE) to probe Europa's surface composition</h4>
+												<p> I am applying my Bayesian framework to thoroughly assess how Europa Clipper’s MISE instrument will improve our understanding of Europa’s surface composition. Using existing optical constants, I want to investigate its ability to detect and constrain properties of trace species like oxides and organics. I also want to investigate the dependence of its performance of the signal-to-noise ratio of the data and the observation geometry parameters. This idea is inspired from previous works in exoplanet science that assess the ability of future missions like JWST and the Nancy Grace Roman Space Telescope (previously WFIRST) to characterize exoplanet atmospheres.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>Image credits: NASA/JPL-Caltech/Ishan Mishra</li><li>&copy; Ishan Mishra. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
