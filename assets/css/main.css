@@ -3315,3 +3315,93 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* ========================================= */
+/* ISHAN'S NEBULA THEME (STELLAR BLUE)       */
+/* ========================================= */
+
+/* 1. Main Body Background (Text Area) */
+body, #main, .wrapper {
+    background-color: #1F2937 !important; /* Dark Slate */
+    color: #F9FAFB !important; /* Off-White Text for readability */
+}
+
+/* 2. Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF !important; /* Pure white for headers to stand out */
+}
+
+/* 3. The Sidebar (Header area) */
+#header {
+    background-color: #111827 !important; /* Midnight Indigo */
+    color: #F9FAFB !important;
+}
+
+#header h1, #header h4, #header p {
+    color: #FFFFFF !important;
+}
+
+/* 4. Navigation Links & BORDERS in the Sidebar */
+/* This fixes the old cyan lines! */
+#header nav ul {
+    border-top-color: rgba(255, 255, 255, 0.1) !important;
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#header nav ul li {
+    border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#header nav ul li a {
+    color: #D1D5DB !important; /* Light Gray */
+}
+
+#header nav ul li a:hover {
+    color: #FBBF24 !important; /* Starlight Gold hover */
+}
+
+/* The active tab in the sidebar */
+#header nav ul li a.active {
+    background: rgba(56, 189, 248, 0.15) !important; /* Subtle blue background */
+    color: #38BDF8 !important; /* Stellar Blue text */
+}
+
+/* 5. General Links in the main content area */
+a {
+    color: #38BDF8 !important; /* Stellar Blue */
+}
+
+a:hover {
+    color: #FBBF24 !important; /* Starlight Gold on hover */
+    border-bottom-color: transparent !important;
+}
+
+/* 6. Borders, Lines, and Image Backgrounds */
+hr {
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.image {
+    background-color: transparent !important; /* Removes default white backgrounds behind images */
+}
+
+/* 7. Footer Icons */
+#header footer .icons li a {
+    color: #9CA3AF !important;
+}
+
+#header footer .icons li a:hover {
+    color: #FBBF24 !important;
+}
+
+/* 8. Bottom Footer Fix */
+#footer {
+    background-color: #1F2937 !important; /* Matches the dark slate body */
+    color: #9CA3AF !important; /* Light gray text */
+    border-top: none !important; /* Removes any lingering light borders */
+}
+
+#footer .copyright li {
+    color: #9CA3AF !important; 
+}
